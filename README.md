@@ -34,14 +34,17 @@ The question then is whether we can analyze the weather (wind/temperature/rain) 
 
 ### Correlation Between Stations
 
-| ![Resale Price Index](https://raw.githubusercontent.com/ooichinchun/TDI/master/resale_plot.png "Resale Price Index") | 
+| ![Correlation in Wind Speeds between Stations](https://raw.githubusercontent.com/ooichinchun/TDI/master/ns_correlation.png "Inter-Station Wind Speed Correlation") | 
 |:--:| 
-| **Resale Price Index (2009-2017)** |
+| **Inter-Station Wind Speed Correlation** |
 
-Governmental data for Resale Price Index (normalized at 100.0 to Q1 2009) shows a gradual appreciation till a peak in 2013, before prices stabilize in 2015 at a more moderate level.
+Correlation in wind speeds between stations does not appear to be visually correlated to distance between stations, which is somewhat surprising. The data is for all wind speed data for one month, but values don't seem to be significantly changing month to month.
 
-This does suggest that prices in this data-set have to take year of sale into account for analysis.
-Alternatively, prices can be restricted to 2015-2017 to avoid confounding effects.
+There is a baseline level of correlation though, as we can clearly see from the following graph.
+
+
+
+*Results analyzed together with Siqi Li.
 
 ### Location of Resale Flats Across Singapore
 
