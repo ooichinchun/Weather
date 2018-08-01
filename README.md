@@ -18,6 +18,12 @@ In the data for Jurong Island presented below, we can see the dominant North win
 |:--:| 
 | **Wind Rose for Jurong Island across 12 Months** |
 
+Additionally, if one were to look at the mean wind speeds across each month for the same station, one would notice a clear shift in the mean and standard deviations through the year.
+
+| ![Jurong Island Mean Wind Speeds](https://raw.githubusercontent.com/ooichinchun/Weather/master/JI_Barplot_12Months.png "Jurong Island Mean Wind Speeds") | 
+|:--:| 
+| **Wind Speeds for Jurong Island across 12 Months** |
+
 Qualitatively though, there appear to be some differences between the stations at different locations even for the same time periods. For example, in the data for the Marina Barrage station presented below, we can see a similar dominant wind direction (NE) between January and March but no corresponding South-East winds in the middle of the year. 
 
 | ![Marina Barrage Wind Rose](https://raw.githubusercontent.com/ooichinchun/Weather/master/MarinaBarrage_12Mths.png "Marina Barrage Wind Rose") | 
