@@ -6,7 +6,7 @@ The location and period of operation for the various stations are available at t
 
 | ![Station Locations](https://raw.githubusercontent.com/ooichinchun/Weather/master/Stn_Location.png "Station Locations") | 
 |:--:| 
-| **Location of Stations with temperature, wind and rain data (2017-2018)** |
+| **Stations with temperature, wind and rain data (2017-2018)** |
 
 ### Time-consistency of Resale Prices
 
@@ -39,6 +39,6 @@ Examples of things we could do include image analysis of the traffic data to obt
 
 | ![Vehicular Traffic Identification](https://raw.githubusercontent.com/ooichinchun/Weather/master/image6.png "Vehicle ID") | 
 |:--:| 
-| **Vehicular ID** <br/> Vehicles are identified with Google's [Tensorflow Objection Detection API](https://github.com/tensorflow/models/tree/research/object_detection "Object Detection API").Tensorflow Object Detection API |
+| **Vehicular ID** <br/> Vehicles are identified with Google's [Tensorflow Objection Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection "Object Detection API").Tensorflow Object Detection API |
 
 By using the Tensorflow Objection Detection API, we can estimate vehicular density and makeup for a  better estimate of traffic pollution around the city, which is reported to contribute to a quarter of total urban PM<sub>2.5</sub> pollution.
