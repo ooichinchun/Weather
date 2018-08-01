@@ -33,7 +33,9 @@ In total, 102,100 transactions were recorded during this period, out of a total 
 
 Figure above is generated via the use of this [R script](https://raw.githubusercontent.com/ooichinchun/TDI/master/generate_price_ggmap.R "ggmap Script").
 
-Other data sets of interest include [health related](https://www.hospitals.sg/polyclinic "Polyclinic Locations") (community polyclinic distribution and infectious disease logs) and traffic/pollutant related information.
+### Other interesting datasets for Analysis
+
+Other data sets of interest include [health related](http://www.hospitals.sg/polyclinics "Polyclinic Locations") (community polyclinic distribution and infectious disease logs) and traffic/pollutant related information.
 
 Examples of things we could do include image analysis of the traffic data to obtain an estimate for the most/least polluted areas by traffic density.
 
