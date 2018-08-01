@@ -34,17 +34,14 @@ The question then is whether we can analyze the weather (wind/temperature/rain) 
 
 ### Correlation Between Stations
 
-| ![Correlation in Wind Speeds between Stations](https://raw.githubusercontent.com/ooichinchun/TDI/master/ns_correlation.png "Inter-Station Wind Speed Correlation") | 
+| ![Correlation in Wind Speeds between Stations](https://raw.githubusercontent.com/ooichinchun/Weather/master/ns_correlation.png "Inter-Station Wind Speed Correlation") | 
 |:--:| 
 | **Inter-Station Wind Speed Correlation** |
 
 Correlation in wind speeds between stations does not appear to be visually correlated to distance between stations, which is somewhat surprising. The data is for all wind speed data for one month, but values don't seem to be significantly changing month to month.
 
-There is a baseline level of correlation though, as we can clearly see from the following graph.
+There is a baseline level of correlation though, as we can clearly see from the following graph (*Siqi Li).
 
-
-
-*Results analyzed together with Siqi Li.
 
 ### Location of Resale Flats Across Singapore
 
