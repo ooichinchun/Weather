@@ -40,7 +40,7 @@ The question then is whether we can analyze the weather (wind/temperature/rain) 
 
 Correlation in wind speeds between stations does not appear to be visually correlated to distance between stations, which is somewhat surprising. The data is for all wind speed data for one month, but values don't seem to be significantly changing month to month.
 
-There is a baseline level of correlation though, as we can clearly see from the following graph (*Siqi Li).
+There is a baseline level of correlation between 0.6 and 0.8 though, as is clear from the graph (*Siqi Li).
 
 
 ### Location of Resale Flats Across Singapore
