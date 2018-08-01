@@ -1,6 +1,6 @@
 ## Weather From Met Stations Across Singapore (Jan 2017 - April 2018) 
 
-Public records for weather from various meterological stations across Singapore have been downloaded and post-processed for the following plots via repeated calls to the APIs at data.gov.sg
+Public records for weather from various meterological stations across Singapore have been downloaded and post-processed for the following plots via repeated calls to the APIs at data.gov.sg. 
 
 The location and period of operation for the various stations are available at this [location](http://www.weather.gov.sg/wp-content/uploads/2016/12/Station_Records.pdf "MSS Station Location").
 
@@ -8,7 +8,30 @@ The location and period of operation for the various stations are available at t
 |:--:| 
 | **Stations with temperature, wind and rain data (2017-2018)** |
 
-### Time-consistency of Resale Prices
+### Temporal Patterns
+
+The data is plotted for individual stations for the 12 months in a year. Only the data for Jurong Island is presented. There are clear temporal differences due to the local monsoon patterns despite the commonly heard refrain "Singapore's weather forecasters have it easy. It's the same year-round." The relatively short time-span of the data available does suggest that analysis here will most probably not be able to identify long-term trends beyond a year or a single season.
+
+| ![Jurong Island Wind Rose](https://raw.githubusercontent.com/ooichinchun/Weather/master/JI_12Months.png "Jurong Island Wind Rose") | 
+|:--:| 
+| **Wind Rose for Jurong Island across 12 Months** |
+
+
+
+Additionally, qualitatively, there appear to be some differences between the stations at different locations even for the same time periods.
+
+
+
+| ![Resale Price Index](https://raw.githubusercontent.com/ooichinchun/TDI/master/resale_plot.png "Resale Price Index") | 
+|:--:| 
+| **Resale Price Index (2009-2017)** |
+
+Governmental data for Resale Price Index (normalized at 100.0 to Q1 2009) shows a gradual appreciation till a peak in 2013, before prices stabilize in 2015 at a more moderate level.
+
+This does suggest that prices in this data-set have to take year of sale into account for analysis.
+Alternatively, prices can be restricted to 2015-2017 to avoid confounding effects.
+
+### Correlation Between Stations
 
 | ![Resale Price Index](https://raw.githubusercontent.com/ooichinchun/TDI/master/resale_plot.png "Resale Price Index") | 
 |:--:| 
