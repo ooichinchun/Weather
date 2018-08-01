@@ -1,5 +1,7 @@
 ## Weather From Met Stations Across Singapore (Jan 2017 - April 2018) 
 
+Weather prediction is not a new problem, and is primarily solved by climate models currently, which rely on physics-based numerical solvers for accurate computation. At the same time, these models are typically meant for large-scale predictions, and do not resolve local conditions very well, especially at levels relevant to urban residents such as us. A way to get around this is to utilize public met station data in conjunction with spatio-temporal modeling techniques to get a better estimate for local weather conditions.
+
 Public records for weather from various meterological stations across Singapore have been downloaded and post-processed for the following plots via repeated calls to the APIs at data.gov.sg. 
 
 The location and period of operation for the various stations are available at this [location](http://www.weather.gov.sg/wp-content/uploads/2016/12/Station_Records.pdf "MSS Station Location").
@@ -40,22 +42,17 @@ The question then is whether we can analyze the weather (wind/temperature/rain) 
 
 Correlation in wind speeds between stations does not appear to be visually correlated to distance between stations, which is somewhat surprising. The data is for all wind speed data for one month, but values don't seem to be significantly changing month to month.
 
-There is a baseline level of correlation between 0.6 and 0.8 though, as is clear from the graph (*Siqi Li).
+There is a baseline level of correlation between 0.6 and 0.8 though, as is clear from the graph (analyzed with Siqi Li).
 
+### Single Station Prediction
 
-### Location of Resale Flats Across Singapore
+As a initial test, we set out to predict the wind speed for a single station (Pulau Ubin was selected) from current temperature, relative humidity, amount of rainfall and time of day. The data was fit with a Gaussian Process framework with a combination of a radial basis function with a periodic kernel, and a Rational Quadratic Kernel.
 
-Initial data as retrieved from data.gov.sg provides resale information in actual address. We have used a Google API to convert these addresses into GPS coordinates for unified cross-referencing.
-
-| ![Resale Flat Location](https://raw.githubusercontent.com/ooichinchun/TDI/master/Price_Distribution.png "Housing Locations") | 
+| ![Prediction Error](https://raw.githubusercontent.com/ooichinchun/Weather/master/S106_Gpy.png "Pulau Ubin Prediction") | 
 |:--:| 
-| **Resale Locations (2009-2017)** <br/> Color represents sale price on a log scale (most units range between SGD$100,000 and SGD$1,000,000. |
+| **Pulau Ubin Prediction** <br/> Wind speed prediction for Pulau Ubin via Gaussian Process Regression |
 
 Various public residential zones show up quite clearly, with local districts such as Woodlands, Bishan, Toa Payoh and Tampines being very apparent.
-
-In total, 102,100 transactions were recorded during this period, out of a total of 1.02 million flats in Singapore currently.
-
-Figure above is generated via the use of this [R script](https://raw.githubusercontent.com/ooichinchun/TDI/master/generate_price_ggmap.R "ggmap Script").
 
 ### Other interesting datasets for Analysis
 
