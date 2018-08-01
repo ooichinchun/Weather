@@ -33,12 +33,12 @@ In total, 102,100 transactions were recorded during this period, out of a total 
 
 Figure above is generated via the use of this [R script](https://raw.githubusercontent.com/ooichinchun/TDI/master/generate_price_ggmap.R "ggmap Script").
 
-Other data sets of interest include [health related](https://www.hospitals.sg/polyclinics "Polyclinic Locations") (community polyclinic distribution and infectious disease logs) and traffic/pollutant related information.
+Other data sets of interest include [health related](https://www.hospitals.sg/polyclinic "Polyclinic Locations") (community polyclinic distribution and infectious disease logs) and traffic/pollutant related information.
 
 Examples of things we could do include image analysis of the traffic data to obtain an estimate for the most/least polluted areas by traffic density.
 
 | ![Vehicular Traffic Identification](https://raw.githubusercontent.com/ooichinchun/Weather/master/image6.png "Vehicle ID") | 
 |:--:| 
-| **Vehicular ID** <br/> Vehicles are identified with Google's [Tensorflow Objection Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection "Object Detection API").Tensorflow Object Detection API |
+| **IDing Vehicles** <br/> Vehicles are identified with Google's [Tensorflow Objection Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection "Object Detection API"). |
 
 By using the Tensorflow Objection Detection API, we can estimate vehicular density and makeup for a  better estimate of traffic pollution around the city, which is reported to contribute to a quarter of total urban PM<sub>2.5</sub> pollution.
