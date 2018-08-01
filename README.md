@@ -10,26 +10,21 @@ The location and period of operation for the various stations are available at t
 
 ### Temporal Patterns
 
-The data is plotted for individual stations for the 12 months in a year. Only the data for Jurong Island is presented. There are clear temporal differences due to the local monsoon patterns despite the commonly heard refrain "Singapore's weather forecasters have it easy. It's the same year-round." The relatively short time-span of the data available does suggest that analysis here will most probably not be able to identify long-term trends beyond a year or a single season.
+The data is plotted for individual stations for the 12 months in a year. There are clear temporal differences due to the local monsoon patterns despite the commonly heard refrain "Singapore's weather forecasters have it easy. It's the same year-round." It should be noted that the relatively short time-span of the data available means that analysis here will not be able to identify long-term trends beyond a year or a single season.
+
+In the data for Jurong Island presented below, we can see the dominant North wind between December and March, and strong South-easterly winds around July and August.
 
 | ![Jurong Island Wind Rose](https://raw.githubusercontent.com/ooichinchun/Weather/master/JI_12Months.png "Jurong Island Wind Rose") | 
 |:--:| 
 | **Wind Rose for Jurong Island across 12 Months** |
 
+Qualitatively though, there appear to be some differences between the stations at different locations even for the same time periods. For example, in the data for the Marina Barrage station presented below, we can see a similar dominant wind direction (NE) between January and March but no corresponding South-East winds in the middle of the year. 
 
-
-Additionally, qualitatively, there appear to be some differences between the stations at different locations even for the same time periods.
-
-
-
-| ![Resale Price Index](https://raw.githubusercontent.com/ooichinchun/TDI/master/resale_plot.png "Resale Price Index") | 
+| ![Marina Barrage Wind Rose](https://raw.githubusercontent.com/ooichinchun/Weather/master/MarinaBarrage_12Mths.png "Marina Barrage Wind Rose") | 
 |:--:| 
-| **Resale Price Index (2009-2017)** |
+| **Wind Rose for Marina Barrage across 12 Months** |
 
-Governmental data for Resale Price Index (normalized at 100.0 to Q1 2009) shows a gradual appreciation till a peak in 2013, before prices stabilize in 2015 at a more moderate level.
-
-This does suggest that prices in this data-set have to take year of sale into account for analysis.
-Alternatively, prices can be restricted to 2015-2017 to avoid confounding effects.
+The question then is whether we can analyze the weather (wind/temperature/rain) across the island at a sufficient resolution to inform our residential design since it is clear that there is significant variation on a micro-climate level.
 
 ### Correlation Between Stations
 
