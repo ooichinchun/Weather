@@ -52,7 +52,6 @@ As a initial test, we set out to predict the wind speed for a single station (Pu
 |:--:| 
 | **Pulau Ubin Prediction** <br/> Wind speed prediction for Pulau Ubin via Gaussian Process Regression |
 
-Various public residential zones show up quite clearly, with local districts such as Woodlands, Bishan, Toa Payoh and Tampines being very apparent.
 
 ### Other interesting datasets for Analysis
 
